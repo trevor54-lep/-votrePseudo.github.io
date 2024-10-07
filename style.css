@@ -1,0 +1,48 @@
+.bloc1 {
+    background-color: #f0f0f0; /* Couleur de fond pour le bloc */
+    padding: 20px;             /* Espace intérieur du bloc */
+    margin: 0 50px;            /* Marge sur les côtés */
+}
+
+.paragraphe1 {
+    text-align: left;          /* Aligner à gauche */
+}
+
+.paragraphe2 {
+    text-align: justify;       /* Justifier le texte */
+}
+
+.paragraphe3 {
+    text-align: right;         /* Aligner à droite */
+}
+}
+</style>
+</head>
+<body>
+
+    <header>
+        <h1>Titre de la page</h1>
+    </header>
+
+    <main>
+        <!-- Ajoutez la div ici -->
+        <div class="bloc1">
+            <p class="paragraphe1">Ceci est le premier paragraphe. Il sera aligné à gauche.</p>
+            <p class="paragraphe2">Ceci est le deuxième paragraphe. Il sera justifié et prendra toute la largeur disponible.</p>
+            <p class="paragraphe3">Ceci est le troisième paragraphe. Il sera aligné à droite.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Pied de page</p>
+    </footer>
+</body>
+}
+.bloc-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.bloc-1 p {
+    margin: 0;
+}
